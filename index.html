@@ -1,35 +1,53 @@
- <!doctype html>
+<!doctype html>
+<html>
 <head>
-<title> assignment1</title>
+<meta charset="UTF-8">
+<title>Assignment 1</title>
 </head>
-    
-        <body> 
+<body>
+
+    <!--Header Section-->
             <header>
+  <h1> 🍔Welcome to <mark> Tute Dude</mark>🍔 </h1>
+<p> A project designed by <strong>Tute Dude</strong> to learn HTML <br><br>
 
-            <h1> 🍔Welcome to <mark> Tute Dude</mark>🍔 </h1>
-<p> <pre>A project designed by Tute Dude to learn HTML
-
- Best Tute Dude in town since 2021</pre>
+ Best Tute Dude in town since 2021
 </p>
-<nav>
-<ul><li>
 
-<a href="hh"> About Td</a></li>
-<li><a href="hh"> Our Menu</a></li>
-<li><a href="hh"> Taco Trivia</a></li>
-<li><a href="hh"> Extras</a></li>
-<li><a href="hh"> Contact</a>
+<!-- navigation bar-->
+<nav>
+<ul>
+    <li>
+
+<a href="About"> About Td</a></li>
+<li><a href="#Menu"> Our Menu</a></li>
+<li><a href="#Trivia"> Taco Trivia</a></li>
+<li><a href="#Extras"> Extras</a></li>
+<li><a href="#Contact"> Contact</a>
 </li>
-</ul></nav>
+</ul>
+</nav>
+<!-- image section-->
+ <figure>
 <img src="assignment 1 img.jpg" alt="assignment 1 image">
-<h5> Tute Dude and a drink</h5></header>
+
+<figcaption>Tute Dude and a drink</figcaption>
+</figure>
+</header>
 <hr>
+<!-- main section-->
 
 <main>
+<!-- about section-->
+ <article>
 <h3>About <span class="dotted">TD</span></h3>
-<p> <span class="td">TD </span> founded in 2021. This demo project was created by Tute Dude for learning all major HTML tags.</p>
-    level up your career with expert mentorship and internship for Free <hr>
+<p><abbr title="Tute Dude">TD</abbr>  founded in <time datetime="2021">2021</time>. This demo project was created by <strong>Tute Dude</strong> for learning all major HTML tags.</p>
+ <blockquote>Level up your career with expert mentorship and internship for Free.
+    <br><br>
+<cite>-Tute Dude</cite> </blockquote><hr>
+</article>
 
+<!-- menu section-->
     <h3> Our Menu</h3>
     <table border="1" cellpadding ="8" cellspacing="0">
         <thead>
@@ -153,8 +171,10 @@
             <td colspan="4">$1.50</td>
             
         </tr>
-    <tr><td colspan="6"> <strong>average meal price range: $2.00-$6.50</strong></td></tr>
-
+        <tfoot
+    <tr>
+        <td colspan="6"> <strong>average meal price range: $2.00-$6.50</strong></td></tr>
+</tfoot>
     </table>
 
 <!-- back to top-->
@@ -183,7 +203,7 @@
 <source src="music.mp3"type="audio/mpeg">
 your browser does not support audio
 </audio>
- 
+
 <!--video-->
 <p> watch taco video</p>
 <video width="370" height="200"controls>
@@ -207,47 +227,26 @@ your browser does not support audio
         <option value="beef"> veggies</option>
         <option value="beef"> soft</option>
 
-       </select></div>
+       </select>
+    </div>
+    <hr>
+    <!--message-->
+
        <br>
        <div class="msg">
        <p> Your Message</p>
-       <textarea name="feedback"id="1"placeholder="your feedback here"></textarea>
+       <textarea name="feedback"placeholder="your feedback here"></textarea>
        <hr>
        <div class="submit">
 <button class="button">Submit</button></div></div>
     </form>
-    
-          
-    <!--styling-->
-    <style>
-    .box{border: 1px solid;
-     padding:10px;   
-
-    }
-    .mail{
-        padding-left: 0;
-        padding-bottom: 17px;
-        padding-top: 17px;
-        
-    }
-    .td{ border-bottom: 2px dotted;
-
-    }
-    .msg{
-        border: 1px solid;
-    
-    }
-    .submit{
-        padding-left:0px ;
-        margin-top: 0px;
-
-    }
-    .dotted{
-        border-bottom: 2px dotted;
-    }
-    </style>
+    <hr>
+          <!--footer-->
     <footer>
+        
+        <!-- contact info-->
     <section>
+        <address
     <h3>Contact Us</h3><br>
     <p> Tute Dude<br>
     123 Taco Street<br>
@@ -255,11 +254,12 @@ Taco Town,TX 75000<br>
 <a href="info@tutedude.com">info@tutedude.com</a><br>
 
 </p>
+    </address>
+    </section>  
 <br>
-<p>© 2025 Tute Dude. All right reserved.</p><br>
-</fotter>
+<p>©<time datetime="2025">2025</time> Tute Dude. All right reserved.</p><br>
+</footer>
 <hr>
-</header>
 
 
 </body>
